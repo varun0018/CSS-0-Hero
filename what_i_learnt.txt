@@ -1,0 +1,165 @@
+selectors
+
+ways to grab and manipulate html elements using css
+
+three selectors
+
+1)element selector
+
+selectors element with inbult tags
+like <p> body etc
+
+applies to all the element with that tag on the page
+
+ranks bottom of specificity rate
+less importance is given when compared to classes and id's
+
+2)class selector
+
+selects elements wiht a certain class name
+
+unlike id's can be used multiple times two or more classes can 
+be combined
+. symbol is used to target specific class
+
+3)id selector
+
+selectors elements with a certain id name
+
+cannot have multiple html elements with same id name
+
+an html file can have one id repeated only once
+
+# symbol is used to target specific id
+
+Specificity Hierarchy
+
+1)Inline styles
+2)IDs
+3)Classes attributes and pseudo classes(:hover,:focus)
+4)Elements and pseudo-elments such as h1,div
+
+How to Calculate Specificity
+
+1)start at 0
+2)1000 for style attributes
+3)100 for IDs
+4)10 for classes
+4)1 for html element
+
+for same specificity latest rule is applied
+
+-----------------------------------------------------------
+
+sudo selectors
+
+they are used when we want to add some features for html elements
+
+:hover->changes state when we hover over element
+
+we can use child to selector to select a particular child of parenet
+for eg in ul 
+
+li:first-child//selectors first child
+li:last-child//selects last child
+li:nth-child(n)//n can be changed to select a child
+
+
+use :visited to to change the appearence of of visited link
+
+adv select
+
+we can select ele after a selector and apply style
+like this 
+h2 + a //here we are basically saying for every a tag after h2
+
+-------------------------------------------------------
+
+background
+
+very useful can be used to apply any of background properties
+using this one property(background)
+
+change background imaage using
+background:url("image location")
+background-size can be used to change the size of background image
+contain and cover are imp ones
+
+opacity
+
+changes the visiblity of the background image
+its value ranges from 0-1
+1->being complety transparent
+0->being invisible
+
+change opacity of img by adding a to rgb ie 
+rgb()->rgba()
+a->alpha or transparency
+
+gradients
+
+gradients can be used to make color fade by mixing in multiple colors
+background:linear-gradient(to right,colors)
+to right can be changed to direction we want the color to fade
+to right->from left to right
+to bottom right->top left to bottom right
+
+radial-gradient can be used to make kinda circle or spiral
+
+--------------------------------------------------------
+
+Types of units in css
+
+1)absolute units->cm,inch,px
+
+2)relative units->%,em more useful for resposive website
+
+%->covers that percent of size of the parent ele
+em->inheried gets added to the size of parent size
+em of parent+em of the child ele gets applied to child
+
+vh->1% of total body height
+vh takes view port into consideration
+
+vw->1% of total body height
+
+relative units are beteer offf in resposive web dev
+
+--------------------------------------------------------
+
+text-manipulation and fonts
+
+
+text-manipulation  is changing underline of the text etc
+
+font-manipulation is adding different tupes of fonts 
+and also bolding them etc
+
+text-manipulation
+
+text-decoration:none->removes the underline of the link
+text-decoration:underline->adds an underline
+text-trasform:uppercase->uppercases entire text chars capital
+text->trasform:lowecase->lowecases entire text chars
+text->transform:capitalize->makes enitre text first char capital
+text-align:center->centers the text
+text-align:justify->makes everthing look neat af sets line at same length
+
+
+font-manipulate
+
+font-size:2rem->changes font size
+
+font-weight:2rem->bolding of the text
+
+font-style:italic->change font style
+
+font families
+
+1)serif->tiny footer sems old hard to read
+2)sans-serif->no tiny footers more modern easy to read 
+3)mono-space->char have same width
+
+font-family->change font family on page
+
+--------------------------------------------------------
