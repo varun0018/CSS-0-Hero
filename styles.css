@@ -1,6 +1,13 @@
 .img-1 {
-    width: 500px;
-    height: 300px;
+    width: 60vw;
+    height: 20vh;
+    border: 3px solid black;
+    /* padding: 30px;
+    left: 200px;
+    position: relative; */
+    /* margin: 40px; */
+    /* padding: 10px 20px 0 30px; */
+    /* float: right; */
 }
 
 h2:hover {
@@ -34,6 +41,7 @@ body {
     /* background: linear-gradient(to right, red, blue, green, steelblue); */
     /* background: linear-gradient(215deg, red, blue, green, steelblue); */
     background: radial-gradient(pink 20%, blue);
+    /* float: right; */
 }
 
 .google-link {
@@ -79,4 +87,33 @@ body {
 
 textarea~button {
     color: purple;
+}
+
+.inline-block-table {
+    display: inline-block;
+    /* margin: 20px; */
+    margin-left: 200px;
+}
+
+.img-2 {
+    display: block;
+}
+
+.container-item {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: green;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    /* creating flex contaier */
+    margin-top: 30px;
+    /* flex-direction: column; */
+    /* elements go in colums */
+    /* column-reverse goes in reverse direcion */
+    flex-wrap: wrap;
+    /* goes to next row instead of continuing in the same row */
 }

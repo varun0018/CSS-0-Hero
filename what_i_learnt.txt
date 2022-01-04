@@ -163,3 +163,69 @@ font families
 font-family->change font family on page
 
 --------------------------------------------------------
+
+CSS box-model
+
+series of positioning properties designed to help with layout
+
+padding->space btw content and the border
+doesnot make content but makes more room from content
+and border
+
+margin->space btw border and all other content
+
+border->divider btw padding and margin
+border:1px solid black;
+
+content-resizing
+
+height->change height of an ele
+width->change width of an ele
+
+we can use circle shorthand to get the things done
+eg:padding:top right bottom left
+like padding:2px 3px 5px 0;
+same can be applied to other properties 
+for margin and border
+
+flaot and display in css
+flaot->flaots 
+
+display==inline and block
+
+block->elements are one below other eg p tag, img etc
+inline->elements are next to one another eg span,
+
+display properties 
+display:none->removes the ele doesnot take space also
+
+inline-block->combination of inline and block display Types
+inline does not move ele to next line
+block makes ele to be spaced in the same line
+
+
+-------------------------------------------------
+
+
+flexbox
+
+its display type that comes with a range of properties 
+allowing to arrange items easily
+
+alternative to using floats,displays and other layouts
+
+divided into two components
+1)container->parent element in which display type is active eg div
+2)flex items->child elements of container and make up contents of the box
+
+flex direction and wrap
+
+flex-direction->specifics the direction the items are directed
+ie we can specify either row or column
+
+flex-wrap->it goes to new row or column to stop exceeding length
+in particular direction also spaces out items
+
+content alignment
+
+
