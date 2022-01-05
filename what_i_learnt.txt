@@ -228,4 +228,92 @@ in particular direction also spaces out items
 
 content alignment
 
+alignment of items in flexbox 
 
+1)justify-content->horizontal alignment
+2)align-items->vertical alignment
+
+
+properties that can be used
+justify-content:
+center->centers horizontally
+start->sets the ele to start of the flex-box
+end->sets the ele to start of the flex-box
+space-around->space around flex 
+space-between->space between flex items
+
+align-items
+center->centers horizontally
+start->sets the ele to start of the flex-box
+end->sets the ele to start of the flex-box
+align-items:stretch->
+
+
+flex-items
+order->change order of flex-items we have to use inline css to define style
+
+flex-grow,flex-shrink,flex-basis
+responsible for responsive power of flexbox
+
+flex-basis->minimum value of flex-items
+flex-grow->gets same amount of extra space
+eg flex-grow:1; should be used when specifc flex-item is targeted
+
+use flex:grow shrink basics as shorthand
+grow defaul->0
+shrink defaul->1
+basics->100px
+
+align-self->aligns a particular flex-items
+---------------------------------------------------
+grid vs flexbox
+
+grid is more manual 
+privides more tools
+provides tools for both width and height
+flexbox is focused on width alone
+
+---------------------------------------------------
+
+grid
+
+display:grid;
+
+
+grid-template-columns: auto auto auto;
+    specifies no of colums we want
+    
+    grid-template-rows: auto auto;
+    specifies no of rows we want
+
+justify and align grid
+
+same as flexbox
+
+justify-content:space-evenly
+justify-contain:space-around
+
+align-content:center
+
+column and row gaps
+
+grid-gap:row_size col_size->this can be used
+to get the gap between col and rows
+
+column and row lines
+
+grid-column:start/end;
+grid-row:start/end;
+
+span can be used to specify end positioning
+grid-row:1/span 2
+here span 2 means go two more lines from that position
+
+grid-area:row-start column-start row-end column-end;
+
+
+grid-area:2/1
+---------------------------------------------------
+transition
+
+use -webkit- to make use of transition in all browsers support
